@@ -1,19 +1,17 @@
 function myplugin -d "My package"
-# 
-   # if  python3 -m venv .venv
-        # echo "install"
-   # end
-    # 
-    # if direnv -f $PREFIX/bin/direnv
-       # direnv allow .
-    # else
-        # python3 -m pip install -U direnv;direnv allow .
-    # end
-# 
-   # ./.venv/bin/python -m pip install -U pip setuptools wheel pip-tools
-# 
-  # # Package entry-point
-  echo Hello $argv
+  # Package entry-point
+  echo "Hello My Plyjin"
 end
-# 
-# 
+
+function pu -d "pud"
+   # echo pithon готов к установке
+if test -e .venv 
+echo Виртуальное окружение установленно
+else
+echo виртуальное окружение отсутствует и будет уст
+
+end
+#    ./.venv/bin/python -m pip install -U pip setuptools wheel pip-tools
+
+end
+
