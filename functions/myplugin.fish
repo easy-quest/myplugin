@@ -1,6 +1,6 @@
 function myplugin -d "My package"
   # Package entry-point
-  echo "Hello My Plyjin"
+  echo -e "\e[3mecho -e "\e[3mHELLO EASYQUEST\e[0m"
 end
 
 function pu -d "pud"
